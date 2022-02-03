@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//1. Implement following array methods:
+
+//Concat
+
+// function concat() {
+//     var str = [];
+//     for (var i = 0 ; i < arguments.length; i++) {
+//         str += arguments[i];
+//     }
+//     return str;
+// }
+
+//Fill
+
+//console.log(concat("abc", "def", "ghi"));
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// for (i = 0; i<fruits.length; i++) {
+   
+//     fruits[i] = 'implement'
+// }
+// console.log(fruits)
+
+//Find
+
+// let numbers = [4, 5, 3, 2, 9]
+// let j = 0
+
+// for (i = 0; i<numbers.length; i++) {
+//    if (numbers[i] % 2 !== 0) {
+//      numbers[j] = numbers[i]
+//      break
+//        } 
+// }
+   
+// console.log(numbers[j])
+
+
+//FindIndex 
+
+//  let numbers = [4, 1, 6, 2, 9]
+ 
+// for (i = 0; i<numbers.length; i++) {
+//    if (numbers[i] > 6) {
+//      numbers = i
+//      break
+//        } 
+// }
+   
+// console.log(i)
+
+
+
+//flat ()
+
+// function flat (arr, newarr = []) {
+//     for (const entry of arr) {
+//         if (Array.isArray(entry)) {
+//             flat(entry, newarr);
+//         } else {
+//             newarr.push(entry);
+//         }
+//     }
+//     return newarr;
+// }
+// console.log(flat([0, 1, 2, [3, 4, [5, 6]]]));
+
+//map
+
+// let arr = [4, 1, 6, 2, 9]
+// let newarr = []
+// let i = 0
+
+// let arrmap = function () {
+
+// while (i<arr.length) {
+//     newarr[i] = arr [i] * 2
+//     i++
+//     }
+// }
+// arrmap()
+
+// console.log(newarr)
+
+//reduce
+
+// let arr = [175, 50, 25]
+// let result = arr[0]
+
+// for (let i = 1; i < arr.length; i++) {
+    
+//     result -= arr[i] 
+// }
+
+// console.log(result)
+
+//-----------------------------------------------------------------------------------------
+//2 
+
+// function checkIfUnique(arr)  {
+   
+//     for (var i = 0; i < arr.length; i++) {
+        
+//      for (var j = i+1; j < arr.length; j++) { 
+                             
+//         if (arr[i] === arr[j]) {
+                    
+//             return 'there are duplicate values'
+//         }
+//       }
+//    }
+//         return 'there are no duplicate value'
+// }
+
+// console.log(checkIfUnique([1, 2, 9, 5, 9]))
+
+//-------------------------------------------------------------------------------
+
+//3
+
+// let str = "Dtrmine daf"
+// let lowesStr = str.toLowerCase()
+
+// function checkIfUnique(lowesStr)  {
+   
+//    for (var i = 0; i < lowesStr.length; i++) {
+       
+//     for (var j = i+1; j < lowesStr.length; j++) { 
+                            
+//        if (lowesStr[i] === lowesStr[j]) {
+                   
+//            return 'repeating letter'
+//        }
+//      }
+//   }
+//        return 'no repeating letter.'
+// }
+
+// console.log(checkIfUnique(lowesStr))
+
+//-------------------------------------------------------------------------------
+
+//4
+
+//intersection
+
+
+// let arr1 = [1,2,3,1]
+// let arr2 = [2,3,4,5]
+
+// let intersection = arr1.filter(el => arr2.includes(el));
+
+// console.log(intersection)
+
+//pull
+
+
+
+    </script>
+</body>
+</html>
